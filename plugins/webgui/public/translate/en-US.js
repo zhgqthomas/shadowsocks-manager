@@ -15,7 +15,7 @@ module.exports = {
   '带有插件系统，仅需修改配置文件即可运行': 'Plugin-based, super-easy deployment',
   '支持libev和python版本的标准manager API': 'Supports standard manager API of both ss-libev and ss-python',
   '请输入邮箱地址再点击“找回密码”': 'Please fill in your email address first',
-  '邮箱不能为空': 'Email address cannot be empty',
+  '邮箱不能为空': 'Email address can\'t be empty',
   '验证码不能为空': 'Code cannot be empty',
   '密码不能为空': 'Password cannot be empty',
   '验证码已发至邮箱': 'A verification code has been sent to your email address',
@@ -99,7 +99,7 @@ module.exports = {
   '用户注册失败': 'Registration failed',
   '网络异常，请稍后再试': 'Network failure. Please try again later.',
   '用户名或密码错误': 'Incorrect username or password.',
-  '该用户尚未注册的': 'No such user',
+  '该邮箱尚未注册的': 'This email has not been registered yet',
   '请输入正确的用户名格式': 'Invalid username.',
   '密码重试次数已达上限\n请稍后再试': 'Too many login attempts.\n Please try again later.',
   '验证码发送错误': 'Unable to send verification code.',
@@ -148,4 +148,7 @@ module.exports = {
   '显示图表': 'Show chart',
   '复制二维码链接': 'Copy QR code link',
   '流量倍率：': 'Flow rate:',
+
+  '该邮箱已注册': 'This Email address has been registered',
+  '非法邮箱地址': 'Invalid email',
 };

@@ -63,7 +63,12 @@ exports.signup = async (req, res) => {
     req.session.user = userId;
     req.session.type = type;
     if(req.body.ref) { ref.addRefUser(req.body.ref, req.session.user); }
-    if(userId === 1) { return; }
+
+    if(userId === 1) {
+      res.send(type);
+      return;
+    }
+
     const newUserAccount = webguiSetting.accountForNewUser;
     if(newUserAccount.isEnable) {
       const getNewPort = async () => {
