@@ -2,8 +2,8 @@ let gcmSenderId = appRequire('services/config').get('plugins.webgui.gcmSenderId'
 if(gcmSenderId) { gcmSenderId = gcmSenderId.toString(); }
 
 const manifest = {
-  short_name: 'ssmgr',
-  name: 'Shadowsocks-Manager',
+  short_name: 'Shadark',
+  name: 'Shadark',
   icons: [
     {
       src: '/favicon.png',
