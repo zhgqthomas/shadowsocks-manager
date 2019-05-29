@@ -67,7 +67,9 @@
     "sqlite3": "^4.0.3",
     "uuid": "^3.3.2",
     "web-push": "^3.3.3",
-    "ws": "^6.1.0"
+    "ws": "^6.1.0",
+    "agentx": "^1.10.3",
+    "commandx": "^1.5.4"
   },
   "repository": {
     "type": "git",

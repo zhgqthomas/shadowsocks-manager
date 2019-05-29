@@ -25,6 +25,7 @@ const startWorker = async () => {
   require('./init/moveConfigFile');
   require('./init/checkConfig');
   require('./init/knex');
+  require('./init/alinode');
 
   const initDb = require('./init/loadModels').init;
   const runShadowsocks = require('./init/runShadowsocks').run;
