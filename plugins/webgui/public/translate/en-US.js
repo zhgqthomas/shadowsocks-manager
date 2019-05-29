@@ -52,7 +52,7 @@ module.exports = {
   '修改密码': 'Change Password',
   '绑定Telegram': 'Binding Telegram',
   '邀请码': 'Referral code',
-  'mac地址': 'MAC Address',
+  'MAC地址': 'MAC Address',
   '修改密码成功': 'Change password success',
   '修改密码失败': 'Change password fail',
   '续费': 'Recharge',
@@ -143,4 +143,9 @@ module.exports = {
   '流量(MB)': 'Data Usage(MB)',
 
   '接收消息推送': 'Receive push message',
+
+  '显示流量': 'Display data usage',
+  '显示图表': 'Show chart',
+  '复制二维码链接': 'Copy QR code link',
+  '流量倍率：': 'Flow rate:',
 };

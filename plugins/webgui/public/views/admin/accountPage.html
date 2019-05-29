@@ -122,7 +122,7 @@
                         <div layout-hide-xs></div>
                         <div ng-hide="isWG(server)" layout="column" layout-align-xs="center center" style="background-color: #eee;">
                             <qr ng-click="showQrcodeDialog(server, account)" size="getQrCodeSize()" layout-margin text="createQrCode(server, account)" image="true"></qr>
-                            <md-button class="md-primary" ngclipboard data-clipboard-text="{{ createQrCode(server, account) }}" ngclipboard-success="clipboardSuccess(e);">复制二维码链接</md-button>
+                            <md-button class="md-primary" ngclipboard data-clipboard-text="{{ createQrCode(server, account) }}" ngclipboard-success="clipboardSuccess(e);">{{'复制二维码链接' | translate }}</md-button>
                         </div>
                         <div ng-show="isWG(server)" ng-click="showWireGuard(server, account)" layout="column" layout-align-xs="center center" style="background-color: #eee;">
                             <qr size="getQrCodeSize()" layout-margin text="createQrCode(server, account)" image="true"></qr>
