@@ -29,17 +29,17 @@ app.factory('languageDialog' , [ '$mdDialog', $mdDialog => {
     bindToController: true,
     controller: ['$scope', '$translate', '$localStorage', 'bind', function($scope, $translate, $localStorage, bind) {
       $scope.publicInfo = bind;
-      $scope.publicInfo.myLanguage = $localStorage.language || navigator.language || 'zh-CN';
+      $scope.publicInfo.myLanguage = $localStorage.language || navigator.language || 'en_US';
       $scope.chooseLanguage = () => {
         $translate.use($scope.publicInfo.myLanguage);
         $localStorage.language = $scope.publicInfo.myLanguage;
         $scope.publicInfo.hide();
       };
       $scope.languages = [
-        { id: 'zh-CN', name: '中文' },
-        { id: 'ja-JP', name: '日本語' },
+        // { id: 'zh-CN', name: '中文' },
+        // { id: 'ja-JP', name: '日本語' },
         { id: 'en-US', name: 'English' },
-        { id: 'ru-RU', name: 'Русский' },
+        // { id: 'ru-RU', name: 'Русский' },
       ];
       $scope.refresh = () => { window.location.reload(true); };
     }],
