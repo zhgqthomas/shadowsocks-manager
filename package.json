@@ -9,7 +9,8 @@
     "prepare": "gulp",
     "prepublishOnly": "gulp",
     "check": "eslint .",
-    "fix": "eslint . --fix"
+    "fix": "eslint . --fix",
+    "docker": "npm build && npm start"
   },
   "author": "Gu Yuteng <igyteng@gmail.com>",
   "license": "GPL-3.0",

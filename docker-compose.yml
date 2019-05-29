@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  shadark_web:
+    build: ./
+    container_name: shadark_web
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - ./ssmgr:/root/.ssmgr

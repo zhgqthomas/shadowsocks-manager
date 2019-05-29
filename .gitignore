@@ -45,9 +45,9 @@ lib
 plugins/webgui/libs/bundle.js
 plugins/webgui/libs/lib.js
 plugins/webgui/libs/style.css
-*.yml
 *.sqlite
 
 .idea/
 yarn.lock
 package-lock.json
+default.yml
