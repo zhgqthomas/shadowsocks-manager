@@ -363,7 +363,7 @@ app
       };
     };
     $scope.clipboardSuccess = event => {
-      $scope.toast('二维码链接已复制到剪贴板');
+      $scope.toast('Link copied to clipboard');
     };
     $scope.isWG = server => {
       return (server && server.type === 'WireGuard');

@@ -151,4 +151,5 @@ module.exports = {
 
   '该邮箱已注册': 'This Email address has been registered',
   '非法邮箱地址': 'Invalid email',
+  '二维码链接已复制到剪贴板': 'Link copied to clipboard',
 };
