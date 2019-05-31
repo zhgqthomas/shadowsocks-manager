@@ -26,7 +26,7 @@ const formatMacAddress = mac => {
 exports.signup = async (req, res) => {
   try {
     req.checkBody('email', 'Invalid email').isEmail();
-    req.checkBody('code', 'Invalid code').notEmpty();
+    // req.checkBody('code', 'Invalid code').notEmpty();
     req.checkBody('password', 'Invalid password').notEmpty();
     let type = 'normal';
     const validation = await req.getValidationResult();
